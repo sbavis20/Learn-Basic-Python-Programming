@@ -1,4 +1,4 @@
-###Swapping
+'''###Swapping
 Description
 You are given two integer variables,  x and y. You have to swap the values stored in x and y.
 
@@ -19,7 +19,7 @@ x before swapping: 20
 y before swapping: 50
 
 x after swapping: 50
-y after swapping: 20 ###
+y after swapping: 20 ###'''
 
 #Take input using input()
 
@@ -36,7 +36,7 @@ print('y before swapping: {0}'.format(y))
 
 #Writing your swapping code here
 z = x
-x = y 
+x = y
 y = z
 
 
