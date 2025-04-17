@@ -1,0 +1,36 @@
+'''
+Smallest Element
+Description
+You have to find and print the smallest element of the list given as input.
+
+----------------------------------------------------------------------
+Input:
+A non-empty list of integers.
+
+Output:
+The smallest integer of the input list.
+
+----------------------------------------------------------------------
+Sample input:
+[2, -3, 0, 7, 21]
+
+Sample output:
+-3
+
+'''
+
+#input have been taken for you here
+import ast
+input_str = input()
+input_list = ast.literal_eval(input_str)
+
+#start writing your code here
+if len(input_list)==0:
+    print("Empty")
+else:
+    m=input_list[0]
+    for item in input_list:
+        if item<m:
+            m = item
+    print(m)
+
